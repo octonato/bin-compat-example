@@ -9,7 +9,7 @@ lazy val root = (project in file("."))
   .settings(
     name := "app",
     libraryDependencies ++= Seq(
-      "com.github.octonato" %% "logger" % "0.2.0",
+      "com.github.octonato" %% "logger" % "0.3.0",
       "com.example.wrapper" %% "logger-wrapper" % "0.1.0",
       scalaTest % Test
     )
